@@ -1,0 +1,2135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.main {
+    background-image: url(img/bg.jpg);
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: 0;
+    right: 0;
+    background-position: center center;
+    background-size: cover;
+
+
+
+
+
+}
+
+.main svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    z-index: 3;
+    margin-bottom: -5px;
+    background: radial-gradient(46% 500% at 50% -400%, rgba(64, 97, 231, 0.4) 90%, rgba(0, 0, 0, 0.1) 100%), black;
+
+}
+
+
+
+
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: radial-gradient(circle,
+            rgba(0, 0, 0, 0.6) 0%,
+            /* Center is slightly dark */
+            rgba(0, 0, 0, 0.8) 100%
+            /* Edges are darker */
+        );
+}
+
+.nav {
+    display: flex;
+    padding-top: 35px;
+    position: sticky;
+    z-index: 10;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 10rem;
+    height: 2.5rem;
+    position: absolute;
+    left: 160px;
+}
+
+.bar {
+    display: flex;
+    position: absolute;
+    gap: 8px;
+    right: 80px;
+}
+
+.drop {
+    padding: 2px;
+    width: 190px;
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+.drop option {
+    color: black;
+}
+
+.but button {
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+}
+
+.but button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    text-align: center;
+}
+
+.but button:hover {
+    background-color: rgb(153, 22, 29);
+}
+
+.Netflix-1 {
+    color: white;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    /*horizontally center*/
+    /* align-items: center;  vertically center*/
+    margin-top: 170px;
+
+}
+
+.Netflix-1 h1 {
+
+    font-family: sans-serif;
+    font-size: 50px;
+
+    text-align: center;
+    width: 65%;
+
+    font-weight: 900;
+    line-height: 120%;
+    margin: 0;
+    word-spacing: -8px;
+}
+
+.Netflix-2 {
+    color: white;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 310px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    word-spacing: 3px;
+
+}
+
+
+.button {
+    position: absolute;
+
+    z-index: 10;
+    padding: 20px;
+    display: flex;
+    /* justify-content: center; */
+    justify-self: center;
+    margin-top: 300px;
+
+}
+
+.button button {
+
+
+    width: 350px;
+    height: 50px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.button button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: large;
+}
+
+.button button:hover {
+    background-color: rgb(153, 22, 29);
+}
+
+.Netflix-3 {
+    position: relative;
+    width: 100%;
+    background: radial-gradient(50% 500% at 50% -400%, rgba(64, 97, 231, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%), black;
+    ;
+
+    height: 330vh;
+    overflow: hidden;
+}
+
+
+
+.class1 {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 130px;
+    top: 35px;
+    
+
+}
+
+.class {
+    
+    position: relative;
+    display: flex;
+    gap:40px;
+     left: 140px;
+    top: 90px;
+    right:140px;
+    padding-left: 30px;
+     width: 75%;
+    overflow-x:scroll;
+    overflow-y: hidden;
+      scrollbar-width:thin;
+      scroll-behavior: smooth;
+    scrollbar-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+     
+   
+}
+
+.class2 {
+    position: relative;
+     transition: transform 0.2s ease;
+     
+}
+.class21{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+
+.class2 img {
+    border-radius: 5px;
+    width:180px;
+     height:250px;
+    
+}
+.class2:hover {
+    transform: scale(1.1);
+}
+
+
+.class3 {
+    position: relative;
+    
+     transition: transform 0.2s ease;
+}
+
+.class3 img {
+    border-radius: 5px;
+     width:180px;
+     height:250px;
+}
+.class3:hover {
+    transform: scale(1.1);
+}
+.class22{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+
+.class4 {
+    position: relative;
+    
+     transition: transform 0.2s ease;
+}
+
+.class4 img {
+    border-radius: 5px;
+     width:180px;
+     height:250px;
+}
+.class4:hover {
+    transform: scale(1.1);
+}
+.class23{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+
+.class5 {
+  position: relative;
+     transition: transform 0.2s ease;
+}
+
+.class5 img {
+    border-radius: 5px;
+     width:180px;
+     height:250px;
+}
+.class5:hover {
+    transform: scale(1.1);
+}
+.class24{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+
+.class6 {
+position: relative;
+     transition: transform 0.2s ease;
+}
+
+.class6 img {
+    border-radius: 5px;
+     width:180px;
+     height:250px;
+}
+.class6:hover {
+    transform: scale(1.1);
+}
+.class25{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+.class7 {
+   position: relative;
+     transition: transform 0.2s ease;
+}
+
+.class7 img {
+    border-radius: 5px;
+     width:180px;
+     height:250px;
+}
+.class7:hover {
+    transform: scale(1.1);
+}
+.class26{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+.class8 {
+   position: relative;
+     transition: transform 0.2s ease;
+}
+
+.class8 img {
+    border-radius: 5px;
+     width:180px;
+     height:250px;
+}
+.class8:hover {
+    transform: scale(1.1);
+}
+
+.class27{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+.class9 {
+  position: relative;
+     transition: transform 0.2s ease;
+}
+
+.class9 img {
+    border-radius: 5px;
+     width:180px;
+     height:250px;
+}
+.class9:hover {
+    transform: scale(1.1);
+}
+.class28{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+
+.class10 {
+   position: relative;
+     transition: transform 0.2s ease;
+}
+
+.class10 img {
+    border-radius: 5px;
+     width:180px;
+     height:250px;
+}
+.class10:hover {
+    transform: scale(1.1);
+}
+
+.class29{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+
+.class11 {
+  position: relative;
+     transition: transform 0.2s ease;
+}
+
+.class11 img {
+    border-radius: 5px;
+     width:180px;
+     height:250px;
+}
+.class11:hover {
+    transform: scale(1.1);
+}
+.class30{
+    position: absolute;
+     font-size: 100px;
+     bottom:8px;
+     left:-20px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: sans-serif;
+    z-index: 100;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    
+   
+}
+
+.h1 {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 130px;
+    top: 25em;
+    
+
+}
+.Reasons{
+     position: absolute;
+    display: flex;
+    gap:13px;
+     left: 140px;
+    top: 28em;
+    right:140px;
+    
+}
+.R1{
+     width:200px;
+     height:290px;
+         position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R2{
+     width:200px;
+     height:290px;
+     position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R3{
+     width:200px;
+     height:290px;
+        position: relative;
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R4{
+     width:200px;
+     height:290px;
+         position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.Reasons h3{
+    padding:2px;
+    padding-top: 0.9em;
+    padding-left: 16px;
+    line-height: 25px;
+    text-align:start;
+    color: white;
+      font-family: sans-serif;
+      font-weight: bolder;
+}
+.Reasons p{
+    padding: 5px;
+    padding-left: 16px;
+    padding-top: 0.9em;
+    text-align:start;
+    color: rgb(225, 221, 221);
+  
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+.I1 img{
+    position:absolute;
+     bottom:15px;
+    right: 10px;
+}
+.I2 img{
+    position:absolute;
+  bottom:15px;
+    right: 10px;
+}
+.I3 img{
+    position:absolute;
+    bottom:15px;
+    right: 10px;
+}
+.I4 img{
+    position:absolute;
+    bottom:15px;
+    right: 10px;
+}
+
+.F1{
+    
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 130px;
+    top: 50em;
+    
+
+
+}
+
+.Fclass{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap:10px;
+}
+.f2{
+    width: 55em;
+    height: 75px;
+    background: #303030;
+    z-index: 20;
+    color: white;
+    position:relative;
+    left:130px;
+    top:37em;
+ 
+}
+.f2 h3{
+   
+ margin-top: 25px;
+ margin-left: 20px;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+   
+
+}
+.f2 img{
+    width:40px;
+    height:40px;
+    position: absolute;
+    right:9px;
+    bottom:20px;
+
+}
+.f2:hover
+{
+    background: #474747;
+    /* border: 2px solid white; */
+}
+
+.button1 {
+    position: absolute;
+
+    z-index: 20;
+    /* padding: 20px; */
+    display: flex;
+   
+    justify-self: center;
+    top: 87em;
+    left:8em;;
+
+}
+
+.button1 button {
+
+
+    width: 350px;
+    height: 55px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.button1 button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: large;
+}
+
+.button1 button:hover {
+    background-color: rgb(153, 22, 29);
+}
+
+.L1{
+    
+    position: absolute;
+    font-family: sans-serif;
+    left: 130px;
+    top: 92em;
+}
+.L1 p a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.Lclass{
+    display: grid;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 30px 30px 30px 30px;
+    position: relative;
+    /* gap:10px; */
+}
+.L{
+    width: 55em;
+    height: 75px;
+    z-index: 20;
+    position:relative;
+    left:130px;
+    top:47em;
+ 
+}
+.L p a{
+     color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.bar3{
+    position: relative;
+    top:49em;
+    left:130px;
+
+}
+.drop3{
+    position: absolute;
+      padding: 2px;
+    width: 190px;
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+.drop3 option{
+    color: black;
+}
+.final{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.7) ;
+    left:130px;
+    top:108em;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width:1390px)
+{
+    .Netflix-3 {
+    position: relative;
+    width: 100%;
+    background: radial-gradient(50% 500% at 50% -400%, rgba(64, 97, 231, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%), black;
+    ;
+
+    height: 270vh;
+    overflow: hidden;
+}
+}
+@media only screen and (max-width:1040px) {
+    .Fclass{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap:10px;
+}
+.f2{
+    width: 40em;
+    height: 65px;
+    background: #303030;
+    z-index: 20;
+    color: white;
+    position:relative;
+    left:130px;
+   top:37em;
+ 
+}
+.f2 h3{
+   
+ margin-top: 25px;
+ margin-left: 20px;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+   
+
+}
+.f2 img{
+    width:40px;
+    height:40px;
+    position: absolute;
+    right:9px;
+    bottom:20px;
+
+}
+.f2:hover
+{
+    background: #474747;
+    /* border: 2px solid white; */
+}
+.button1 {
+    position: absolute;
+
+    z-index: 20;
+    /* padding: 20px; */
+    display: flex;
+   
+    justify-self: center;
+    top: 83em;
+    left:8em;;
+
+}
+
+.button1 button {
+
+
+    width: 350px;
+    height: 55px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.button1 button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: large;
+}
+.Netflix-3 {
+    position: relative;
+    width: 100%;
+    background: radial-gradient(50% 500% at 50% -400%, rgba(64, 97, 231, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%), black;
+    ;
+
+    height: 270vh;
+    overflow: hidden;
+}
+
+.L1{
+    
+    position: absolute;
+    font-family: sans-serif;
+    left: 130px;
+    top: 88em;
+}
+.L1 p a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.Lclass{
+    display: grid;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 30px 30px 30px 30px;
+    position: relative;
+    /* gap:10px; */
+}
+.L{
+    width: 55em;
+    height: 75px;
+    z-index: 20;
+    position:relative;
+    left:130px;
+    top:47em;
+ 
+}
+.L p a{
+     color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.bar3{
+    position: relative;
+    top:49em;
+    left:130px;
+
+}
+.drop3{
+    position: absolute;
+      padding: 2px;
+    width: 190px;
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+.drop3 option{
+    color: black;
+}
+.final{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.7) ;
+    left:130px;
+    top:105em;
+}
+
+
+
+}
+@media only screen and (max-width:840px) {
+    .nav {
+        display: flex;
+        padding-top: 35px;
+        position: sticky;
+        z-index: 10;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo img {
+        width: 7rem;
+        height: 2rem;
+        position: absolute;
+        left: 90px;
+    }
+
+    .bar {
+        display: flex;
+        position: absolute;
+        gap: 8px;
+        right: 40px;
+    }
+
+    .drop {
+        padding: 5px;
+        width: 150px;
+        background-color: transparent;
+        color: white;
+        font-family: "Poppins";
+        font-size: 17px;
+        border-radius: 5px;
+
+    }
+
+    .drop option {
+        color: black;
+    }
+
+    .but button {
+        padding: 5px;
+        width: 90px;
+        height: 30px;
+        background-color: rgb(229, 9, 20);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .but button a {
+        text-decoration: none;
+        color: white;
+        font-family: "Poppins";
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .but button:hover {
+        background-color: rgb(153, 22, 29);
+    }
+
+
+    .Netflix-1 {
+        color: white;
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        /*horizontally center*/
+        /* align-items: center;  vertically center*/
+        margin-top: 200px;
+
+    }
+
+    .Netflix-1 h1 {
+
+        font-family: sans-serif;
+        font-size: 30px;
+
+        text-align: center;
+        width: 67%;
+
+        font-weight: 900;
+        line-height: 120%;
+        margin: 0;
+        word-spacing: -8px;
+    }
+
+    .Netflix-2 {
+        color: white;
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        margin-top: 290px;
+        width: 80%;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        word-spacing: 3px;
+
+    }
+   .Netflix-3 {
+    position: relative;
+    width: 100%;
+    background: radial-gradient(50% 500% at 50% -400%, rgba(64, 97, 231, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%), black;
+    ;
+
+    height: 330vh;
+    overflow: hidden;
+}
+    .class1 {
+        position: absolute;
+        color: white;
+        font-family: sans-serif;
+        left: 80px;
+        top: 35px;
+
+    }
+.h1 {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 70px;
+    top: 25em;
+    
+
+}
+.Reasons{
+     position: absolute;
+    display: grid;
+    grid-template-columns: 210px 210px;
+    grid-template-rows: 1fr 1fr;
+    justify-self:normal;
+    align-content: center;
+    gap:7px;
+     left: 60px;
+    top: 28em;
+    
+    
+}
+.R1{
+     width:190px;
+     height:270px;
+         position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R2{
+      width:190px;
+     height:270px;
+     position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R3{
+     width:190px;
+     height:270px;
+        position: relative;
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R4{
+      width:190px;
+     height:270px;
+         position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.Reasons h3{
+    padding:2px;
+    padding-top: 0.7em;
+    padding-left: 13px;
+    line-height: 20px;
+    text-align:start;
+    color: white;
+      font-family: sans-serif;
+      font-weight: bolder;
+}
+.Reasons p{
+    padding: 5px;
+    padding-left: 13px;
+    padding-top: 0.7em;
+    text-align:start;
+    color: rgb(225, 221, 221);
+  
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+.I1 img{
+    position:absolute;
+     bottom:15px;
+    right: 10px;
+}
+.I2 img{
+    position:absolute;
+  bottom:15px;
+    right: 10px;
+}
+.I3 img{
+    position:absolute;
+    bottom:15px;
+    right: 10px;
+}
+.I4 img{
+    position:absolute;
+    bottom:15px;
+    right: 10px;
+}
+
+.F1{
+    
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 70px;
+    top: 65em;
+    
+
+
+}
+.Fclass{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap:10px;
+    top:15em;
+    left: -55px;
+}
+.f2{
+    width: 25em;
+    height: 75px;
+    background: #303030;
+    z-index: 20;
+    color: white;
+    position:relative;
+    left:130px;
+ top:37em;
+ 
+}
+.f2 h3{
+   
+ margin-top: 25px;
+ margin-left: 20px;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+   
+
+}
+.f2 img{
+    width:40px;
+    height:40px;
+    position: absolute;
+    right:9px;
+    bottom:20px;
+
+}
+.f2:hover
+{
+    background: #474747;
+    /* border: 2px solid white; */
+}
+.button1 {
+    position: absolute;
+
+    z-index: 20;
+    /* padding: 20px; */
+    display: flex;
+   
+    justify-self: center;
+    top: 102em;
+    left:4.7em;;
+
+}
+
+.button1 button {
+
+
+    width: 350px;
+    height: 55px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.button1 button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: large;
+}
+
+.L1{
+    
+    position: absolute;
+    font-family: sans-serif;
+    left: 97px;
+    top: 107em;
+}
+.L1 p a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.Lclass{
+    display: grid;
+    grid-template-columns: 190px 190px ;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+    position: relative;
+    /* gap:10px; */
+}
+.L{
+    width: 55em;
+    height: 75px;
+    z-index: 20;
+    position:relative;
+    left:97px;
+    top:62em;
+ 
+}
+.L p a{
+     color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.bar3{
+    position: relative;
+    top:60em;
+    left:97px;
+
+}
+.drop3{
+    position: absolute;
+      padding: 2px;
+    width: 190px;
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+.drop3 option{
+    color: black;
+}
+.final{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.7) ;
+    left:97px;
+    top:129em;
+}
+}
+
+
+
+@media only screen and (max-width:490px) {
+    .nav {
+        display: flex;
+        padding-top: 35px;
+        position: sticky;
+        z-index: 10;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo img {
+        width: 7rem;
+        height: 2rem;
+        position: absolute;
+        left: 45px;
+    }
+
+    .bar {
+        display: flex;
+        position: absolute;
+        gap: 8px;
+        right: 28px;
+    }
+
+    .drop {
+        padding: 5px;
+        width: 100px;
+        background-color: transparent;
+        color: white;
+        font-family: "Poppins";
+        font-size: 13px;
+        border-radius: 5px;
+
+    }
+
+    .drop option {
+        color: black;
+    }
+
+    .but button {
+        /* padding:10px; */
+        width: 90px;
+        height: 30px;
+        background-color: rgb(229, 9, 20);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .but button a {
+        text-decoration: none;
+        color: white;
+        font-family: "Poppins";
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .but button:hover {
+        background-color: rgb(153, 22, 29);
+    }
+
+    .Netflix-1 {
+        color: white;
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        /*horizontally center*/
+        /* align-items: center;  vertically center*/
+        margin-top: 190px;
+
+    }
+
+    .Netflix-1 h1 {
+
+        font-family: sans-serif;
+        font-size: 25px;
+
+        text-align: center;
+        width: 80%;
+
+        font-weight: 900;
+        line-height: 120%;
+        margin: 0;
+        word-spacing: -8px;
+    }
+
+    .Netflix-2 {
+        color: white;
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 270px;
+        width: 100%;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        word-spacing: 3px;
+
+    }
+  .Netflix-3 {
+    position: relative;
+    width: 100%;
+    background: radial-gradient(50% 500% at 50% -400%, rgba(64, 97, 231, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%), black;
+    ;
+
+    height: 330vh;
+    overflow: hidden;
+}
+   .button {
+        position: absolute;
+
+        z-index: 10;
+        padding: 20px;
+        display: flex;
+        /* justify-content: center; */
+        justify-self: center;
+        margin-top: 280px;
+
+    }
+
+    .button button {
+
+
+        width: 270px;
+        height: 50px;
+        background-color: rgb(229, 9, 20);
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    .button button a {
+        text-decoration: none;
+        color: white;
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: large;
+    }
+
+    .button button:hover {
+        background-color: rgb(153, 22, 29);
+    }
+
+    .class1 {
+        position: absolute;
+        color: white;
+        font-family: sans-serif;
+        left: 60px;
+        top: 35px;
+
+    }
+
+    .class {
+    position: absolute;
+    display: flex;
+    gap:40px;
+     left: 60px;
+    top: 90px;
+    right:60px;
+ 
+    overflow-x:scroll;
+    overflow-y: hidden;
+      scrollbar-width:thin;
+      scroll-behavior: smooth;
+    scrollbar-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+     
+   
+}
+.Reasons{
+     position: absolute;
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 1fr 1fr;
+    justify-self:normal;
+    align-content: center;
+    gap:7px;
+     left: 5px;
+    top: 28em;
+    
+    
+}
+.R1{
+     width:190px;
+     height:270px;
+         position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R2{
+      width:190px;
+     height:270px;
+     position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R3{
+     width:190px;
+     height:270px;
+        position: relative;
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R4{
+      width:190px;
+     height:270px;
+         position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.Reasons h3{
+    padding:2px;
+    padding-top: 0.7em;
+    padding-left: 13px;
+    line-height: 20px;
+    text-align:start;
+    color: white;
+      font-family: sans-serif;
+      font-weight: bolder;
+}
+.Reasons p{
+    padding: 5px;
+    padding-left: 13px;
+    padding-top: 0.7em;
+    text-align:start;
+    color: rgb(225, 221, 221);
+  
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+.I1 img{
+    position:absolute;
+     bottom:15px;
+    right: 10px;
+}
+.I2 img{
+    position:absolute;
+  bottom:15px;
+    right: 10px;
+}
+.I3 img{
+    position:absolute;
+    bottom:15px;
+    right: 10px;
+}
+.I4 img{
+    position:absolute;
+    bottom:15px;
+    right: 10px;
+}
+
+.F1{
+    
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 50px;
+    top: 65em;
+    
+
+
+
+}
+.h1 {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 50px;
+    top: 25em;
+    
+
+}
+.Fclass{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap:10px;
+}
+.f2{
+    width: 20em;
+    height: 75px;
+    background: #303030;
+    z-index: 20;
+    color: white;
+    position:relative;
+    left:100px;
+  top:53em;
+ 
+}
+.f2 h3{
+   
+ margin-top: 25px;
+ margin-left: 20px;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+   
+
+}
+.f2 img{
+    width:40px;
+    height:40px;
+    position: absolute;
+    right:9px;
+    bottom:20px;
+
+}
+.f2:hover
+{
+    background: #474747;
+    /* border: 2px solid white; */
+}
+.button1 {
+    position: absolute;
+
+    z-index: 20;
+    /* padding: 20px; */
+    display: flex;
+   
+    justify-self: center;
+    top: 102em;
+    left:2.5em;;
+
+}
+
+.button1 button {
+
+
+    width: 330px;
+    height: 55px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.button1 button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: large;
+}
+.L1{
+    
+    position: absolute;
+    font-family: sans-serif;
+    left: 52px;
+    top: 107em;
+}
+.L1 p a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.Lclass{
+    display: grid;
+    grid-template-columns: 150px 150px ;
+    grid-template-rows: 32px 32px 32px 32px 32px 32px 32px;
+    position: relative;
+    /* gap:10px; */
+}
+.L{
+    width: 55em;
+    height: 75px;
+    z-index: 20;
+    position:relative;
+    left:53px;
+    top:78em;
+ 
+}
+.L p a{
+     color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.bar3{
+    position: relative;
+    top:76em;
+    left:53px;
+
+}
+.drop3{
+    position: absolute;
+      padding: 2px;
+    width: 190px;
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+.drop3 option{
+    color: black;
+}
+.final{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.7) ;
+    left:53px;
+    top:129em;
+}
+
+
+}
+
+
+@media only screen and (max-width:380px) {
+    .nav {
+        display: flex;
+        padding-top: 35px;
+        position: sticky;
+        z-index: 10;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo img {
+        width: 6rem;
+        height: 1.7rem;
+        position: absolute;
+        left: 20px;
+    }
+
+    .bar {
+        display: flex;
+        position: absolute;
+        gap: 8px;
+        right: 35px;
+        margin-top: 17px;
+    }
+
+    .drop {
+        padding: 3px;
+        width: 90px;
+        background-color: transparent;
+        color: white;
+        font-family: "Poppins";
+        font-size: 10px;
+        border-radius: 5px;
+
+    }
+
+    .drop option {
+        color: black;
+    }
+
+    .but button {
+        padding: 3px;
+        width: 70px;
+        height: 25px;
+        background-color: rgb(229, 9, 20);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .but button a {
+        text-decoration: none;
+        color: white;
+        font-family: "Poppins";
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .but button:hover {
+        background-color: rgb(153, 22, 29);
+    }
+
+    .Netflix-1 {
+        color: white;
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        /*horizontally center*/
+        /* align-items: center;  vertically center*/
+        margin-top: 200px;
+
+    }
+
+    .Netflix-1 h1 {
+
+        font-family: sans-serif;
+        font-size: 21px;
+
+        text-align: center;
+        width: 80%;
+
+        font-weight: 900;
+        line-height: 120%;
+        margin: 0;
+        word-spacing: 1px;
+    }
+
+    .Netflix-2 {
+        color: white;
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 270px;
+        width: 100%;
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: 900;
+        word-spacing: 2px;
+
+    }
+.Netflix-3 {
+    position: relative;
+    width: 100%;
+    background: radial-gradient(50% 500% at 50% -400%, rgba(64, 97, 231, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%), black;
+    ;
+
+    height: 400vh;
+    overflow: hidden;
+}
+
+    .button {
+        position: absolute;
+
+        z-index: 10;
+        padding: 20px;
+        display: flex;
+        /* justify-content: center; */
+        justify-self: center;
+        margin-top: 280px;
+
+    }
+
+    .button button {
+
+
+        width: 250px;
+        height: 50px;
+        background-color: rgb(229, 9, 20);
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    .button button a {
+        text-decoration: none;
+        color: white;
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: large;
+    }
+
+    .button button:hover {
+        background-color: rgb(153, 22, 29);
+    }
+
+    .class1 {
+        position: absolute;
+        color: white;
+        font-family: sans-serif;
+        left: 45px;
+        top: 35px;
+
+    }
+    .Reasons{
+     position: absolute;
+    display: flex;
+        flex-direction: column;
+  
+    gap:10px;
+     /* left: 5px; */
+    top: 28em;
+    align-items: center;
+    justify-content: center;
+    left:9em;
+    
+    
+}
+.R1{
+     width:190px;
+     height:270px;
+         position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R2{
+      width:190px;
+     height:270px;
+     position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R3{
+     width:190px;
+     height:270px;
+        position: relative;
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.R4{
+      width:190px;
+     height:270px;
+         position: relative;
+    
+    border-radius: 15px;
+ background: linear-gradient(to bottom right, #1e2442, #2b0f21cc);
+}
+.Reasons h3{
+    padding:2px;
+    padding-top: 0.7em;
+    padding-left: 13px;
+    line-height: 20px;
+    text-align:start;
+    color: white;
+      font-family: sans-serif;
+      font-weight: bolder;
+}
+.Reasons p{
+    padding: 5px;
+    padding-left: 13px;
+    padding-top: 0.7em;
+    text-align:start;
+    color: rgb(225, 221, 221);
+  
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+.I1 img{
+    position:absolute;
+     bottom:15px;
+    right: 10px;
+}
+.I2 img{
+    position:absolute;
+  bottom:15px;
+    right: 10px;
+}
+.I3 img{
+    position:absolute;
+    bottom:15px;
+    right: 10px;
+}
+.I4 img{
+    position:absolute;
+    bottom:15px;
+    right: 10px;
+}
+
+.F1{
+    
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 40px;
+    top: 100em;
+    
+
+
+
+}
+.h1 {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 50px;
+    top: 25em;
+    
+
+}
+.Fclass{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap:10px;
+}
+.f2{
+    width: 17em;
+    height: 75px;
+    background: #303030;
+    z-index: 20;
+    color: white;
+    position:relative;
+    left:95px;
+    top:90em;
+ 
+}
+.f2 h3{
+   
+ margin-top: 25px;
+ margin-left: 20px;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+   
+
+}
+.f2 img{
+    width:30px;
+    height:30px;
+    position: absolute;
+    right:9px;
+    bottom:20px;
+    padding:2px;
+
+}
+.f2:hover
+{
+    background: #474747;
+    /* border: 2px solid white; */
+}
+.button1 {
+    position: absolute;
+
+    z-index: 20;
+    /* padding: 20px; */
+    display: flex;
+   
+    justify-self: center;
+    top: 138em;
+    left:2.4em;;
+
+}
+
+.button1 button {
+
+
+    width: 270px;
+    height: 55px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.button1 button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: large;
+}
+.L1{
+    
+    position: absolute;
+    font-family: sans-serif;
+    left: 52px;
+    top: 143em;
+}
+.L1 p a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.Lclass{
+    display: grid;
+    grid-template-columns: 148px 144px ;
+    grid-template-rows: 32px 32px 32px 32px 32px 32px 32px;
+    position: relative;
+    /* gap:10px; */
+}
+.L{
+    width: 55em;
+    height: 75px;
+    z-index: 20;
+    position:relative;
+    left:48px;
+    top:115em;
+ 
+}
+.L p a{
+     color:rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.bar3{
+    position: relative;
+    top:113em;
+    left:53px;
+
+}
+.drop3{
+    position: absolute;
+      padding: 2px;
+    width: 190px;
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+.drop3 option{
+    color: black;
+}
+.final{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.7) ;
+    left:53px;
+    top:166em;
+}
+
+
+}
